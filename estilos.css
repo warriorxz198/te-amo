@@ -1,7 +1,19 @@
-body {
-	background: rgb(2, 163, 163);
-	text-align: center;
-}
 .red {
 	color: red;
+}
+body {
+	background-color: red;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.esquinas {
+	background: rgb(2, 163, 163);
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: -21px;
+	margin-bottom: 1px;
+}
+.afuera {
+	background-image: url(corazon2.png);
 }
