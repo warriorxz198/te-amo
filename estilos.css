@@ -17,3 +17,21 @@ body {
 .afuera {
 	background-image: url(corazon2.png);
 }
+img {
+	max-width: 80%;
+	height: auto;
+	margin: auto;
+}
+.frames {
+	position: relative;
+	height: 0;
+	padding-bottom: 56.25%;
+	overflow: hidden;
+}
+.frames iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
